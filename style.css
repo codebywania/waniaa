@@ -1,19 +1,84 @@
- *{
-   margin: 0;
-   padding: 0;
-   border: border-box;
+ .hello{
+    width: 50%;
+    top: 0;
+    margin:0;
+    left: 0;
+    color: white;
+    font-size: 52px;
+    justify-content: center;
+    padding: 10px 5px;
+    
+    
  }
-  body{
-    background: url(image1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+ .para{
+     padding-left: 20px ;
+     padding-bottom: 25px;
+     font-family: Arial;
+     letter-spacing: 1.2px;
+     line-height: 30px;
+     color: #fff;
+     
+ }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    color: #fff;
+    letter-spacing: 2px;
+    
+    
+ }
+ .product{
+    color: white;
+    font-size: 40px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: sans-serif;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+ }
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(image.22.jpeg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+}
+.cn a{
+    text-decoration: none;
+    background-color: #ff720f;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    transition:0.4s;
+    position: relative;
+}
+ .cn a:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ff720f;
  }
-  .div .img{
-   margin: 0;
-   padding: 0;
-   border: border-box;
-
-  }
+ .head{
+     
+    color: #fff;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 30px;
+    margin: 5px;
+ }
+ .par{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    line-height: 30px;
+ }
+ 

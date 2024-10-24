@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <nav class="navbar navbar-light bg-dark">
+                <div class="container">
+                  <a class="navbar-brand text-dark" href="bootstrap-logo.svg">
+                    <img src="bootstrap-logo.svg" alt="image" width="30" height="24">
+                  </a>
+                </div>
+              </nav>
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="Web desgining.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sevices text-white" href="services.html">Services</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link contact text-white" href="contact.html">Contact</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link gallery text-white" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link about text-white" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    
+    <form class="row g-3 m-3 ">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label text-white">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" value="Wania" required>
+        </div>
+        <div class="col-md-4 ">
+          <label for="validationDefault02" class="form-label text-white">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" value="Khan" required>
+        </div>
+         
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label text-white">City</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-5">
+            <label for="validationDefault03" class="form-label text-white">Curces</label>
+            <input type="text" class="form-control" id="validationDefault03" required>
+          </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label text-white">State</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label text-white">Zip</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label text-white" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+  
+    
+
+
+
+</body>
+</html>
